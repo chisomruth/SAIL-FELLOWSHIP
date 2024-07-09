@@ -16,7 +16,7 @@ hotel = read_csv("C:/Users/Open User/Downloads/Hotels In Lagos.csv")
 str(hotel)
 view(hotel)
 
-Sys.setenv(GOOGLEGEOCODE_API_KEY = "AIzaSyDA_XjEWNXWmiJWqDWPFy6T_AaWpvTd4a4")
+Sys.setenv(GOOGLEGEOCODE_API_KEY = "AIzaSyDA_XjEWNXWmiJ############")
 geo <- hotel %>%
   geocode(address = Address, method = "google")
 View(geo)
